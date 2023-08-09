@@ -1,0 +1,49 @@
+{
+  "name": "hexo-filter-hidden-source",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "hidden-source": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaaxite/hexo-filter-hidden-source.git"
+  },
+  "keywords": [
+    "hexo",
+    "hidden",
+    "source",
+    "cli",
+    "filter"
+  ],
+  "owner": "isaacgun",
+  "author": "isaaxite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isaaxite/hexo-filter-hidden-source/issues"
+  },
+  "homepage": "https://github.com/isaaxite/hexo-filter-hidden-source#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "dayjs": "^1.11.9",
+    "dist": "link:../../../dist",
+    "fs-extra": "^11.1.1",
+    "hexo-filter-hidden-source": "link:/home/isaac/workspace/hexo-filter-hidden-source/dist",
+    "hexo-log": "^4.1.0",
+    "js-yaml": "^4.1.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@isubo-org/publish": "0.0.2-alpha.1",
+    "@isubo-org/version": "0.0.2-alpha.6",
+    "@rollup/plugin-commonjs": "^25.0.3",
+    "rollup": "^3.28.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
