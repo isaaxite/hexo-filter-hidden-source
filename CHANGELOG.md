@@ -1,6 +1,10 @@
 # Changelog
+### [0.0.2-alpha.1](https://github.com/isaaxite/hexo-filter-hidden-source/compare/v0.0.2-alpha.0...v0.0.2-alpha.1) (2023-08-09)
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### Refactors
+
+* **cache:** comress cache;add sourcename to cache if not exist ([cc5de1a](https://github.com/isaaxite/hexo-filter-hidden-source/commit/cc5de1a93ed88eaface9d2be2c020feeb2c300fc))
 
 ### 0.0.2-alpha.0 (2023-08-09)
 
