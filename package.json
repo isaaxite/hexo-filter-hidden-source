@@ -43,6 +43,7 @@
     "hexo-filter-hidden-source": "link:/home/isaac/workspace/hexo-filter-hidden-source/dist",
     "hexo-log": "^4.1.0",
     "js-yaml": "^4.1.0",
+    "prompts": "^2.4.2",
     "yargs": "^17.7.2"
   },
   "devDependencies": {

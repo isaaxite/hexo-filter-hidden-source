@@ -21,12 +21,11 @@ yargs(process.argv.slice(2))
     builder(yargs) {
       return yargs
         .option('source', {
-          alias: 's',
-          demandOption: true
+          alias: 's'
         });
     },
     async handler(argv) {
-      newPost(argv);
+      await newPost(argv);
     }
   })
   .example([
