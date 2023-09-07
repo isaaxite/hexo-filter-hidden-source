@@ -21,16 +21,17 @@ yargs(process.argv.slice(2))
     builder(yargs) {
       return yargs
         .option('source', {
-          alias: 's',
-          demandOption: true
+          alias: 's'
         });
     },
     async handler(argv) {
-      newPost(argv);
+      await newPost(argv);
     }
   })
+  .completion('completion', ['new', 'new-post'])
   .example([
     ['$0 new -t <source homepage title> -d <dirname>'],
+    ['$0 new-post <post name>'],
     ['$0 new-post <post name> -s <source path>'],
   ])
   .demandCommand(2)
